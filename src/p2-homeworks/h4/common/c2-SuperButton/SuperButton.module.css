@@ -1,0 +1,8 @@
+.default {
+    background: rgb(255, 250, 240);
+}
+
+.red {
+    background: rgba(255, 0, 0, .8);
+}
+

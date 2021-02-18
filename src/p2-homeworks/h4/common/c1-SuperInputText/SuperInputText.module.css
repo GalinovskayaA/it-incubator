@@ -1,0 +1,23 @@
+.input {
+    padding: 10px;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.superInput {
+    border: 2px solid rgb(200, 200, 200);
+    background: rgb(255, 250, 240);
+    outline: none;
+    font-size: 16px;
+}
+
+.errorInput {
+    border: 2px solid rgba(255, 0, 0, .8);
+    background: rgba(255, 0, 0, .5);
+    outline: none;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}

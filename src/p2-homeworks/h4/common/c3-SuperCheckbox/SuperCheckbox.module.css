@@ -1,0 +1,36 @@
+.checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+    background: left top no-repeat;
+    cursor: pointer;
+}
+
+.checkbox:checked {
+    color: red;
+}
+
+.spanClassName {
+
+}
+
+
+.superCheckbox {
+
+}
+
+label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 230px;
+}
+
+
+
+
+
+
+
