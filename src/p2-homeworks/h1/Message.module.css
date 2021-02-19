@@ -1,7 +1,6 @@
 .content {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
 }
 
 .avatar {
@@ -32,6 +31,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
     color: aquamarine;
+    z-index: 1;
 }
 
 .time {
@@ -44,6 +44,5 @@
 .vector {
     width: 500px;
     position: absolute;
-    z-index: -1;
     bottom: 0;
 }

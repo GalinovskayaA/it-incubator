@@ -31,3 +31,11 @@ button:hover {
 .priority {
     color: orangered;
 }
+
+.affairItem {
+    display: flex;
+}
+
+.item {
+    min-width: 300px;
+}

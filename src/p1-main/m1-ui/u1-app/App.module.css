@@ -1,3 +1,125 @@
 .App {
+    text-align: center;
+    font-size: 30px;
+}
+
+.homeworkPage {
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    z-index: -3;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 200px;
+    background-color: rgba(232, 249, 253, .8);
+    height: 400px;
+    border-radius: 10px;
+    min-width: 1000px;
+}
+
+.error404 {
+    display: flex;
+    margin: 100px 50px 50px;
+    padding-top: 150px;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(232, 249, 253, .8);
+    height: 400px;
+    border-radius: 10px;
+}
+
+.errorItems {
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: cursive;
+    background: linear-gradient(45deg, #682bf5 11%, #15ecd8 55%, #deff2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.HW {
+    width: 90%;
+    height: 90%;
+}
+
+.HW1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HW5 {
+    height: max-content;
+}
+
+.header {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background: #ff18e7;
+    width: 70px;
+    height: 30px;
+    font: 14px Arial;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.header:hover {
+    left: 170px;
+}
+
+.nav {
+    position: fixed;
+    top: 50px;
+    left: -170px;
+    background: lavender;
+    color: #2c0058;
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 0 5px 0;
+
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.nav a.activeLink {
+    color: #ff3876;
+}
+
+.header:hover .nav {
+    left: 0;
+}
+
+h4 {
 
 }

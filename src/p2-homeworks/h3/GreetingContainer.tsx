@@ -3,8 +3,8 @@ import Greeting from "./Greeting";
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-  users: Array<UserType> // need to fix any
-  addUserCallback: (userName: string) => void // need to fix any
+    users: Array<UserType> // need to fix any
+    addUserCallback: (userName: string) => void // need to fix any
 }
 export type ErrorType = "" | "error"
 
@@ -15,43 +15,43 @@ export type ErrorType = "" | "error"
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-  const [name, setName] = useState<string>("");
-  const [error, setError] = useState<ErrorType>(""); // need to fix any
-  const totalUsers = users.length;
+    const [name, setName] = useState<string>("");
+    const [error, setError] = useState<ErrorType>(""); // need to fix any
+    const totalUsers = users.length;
 
 
-  const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
-    setName(e.currentTarget.value);
-  };
-  const onKeyPressAddUser = (e: KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") addUser()
-  }
-  const valueError = (newErrorValue: ErrorType) => {
-    setError(newErrorValue)
-  }
-
-  const addUser = () => {
-    if (name === "") {
-      setError("error")
-    } else {
-      addUserCallback(name)
-      setError("")
-      alert(`Hello,  ` + name + `!`);
+    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        setName(e.currentTarget.value);
+    };
+    const onKeyPressAddUser = (e: KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === "Enter") addUser()
     }
-    setName("")
-  };
+    const valueError = (newErrorValue: ErrorType) => {
+        setError(newErrorValue)
+    }
+
+    const addUser = () => {
+        if (name === "") {
+            setError("error")
+        } else {
+            addUserCallback(name)
+            setError("")
+            alert(`Hello,  ` + name + `!`);
+        }
+        setName("")
+    };
 
 
-  return (
-    <Greeting
-      name={name}
-      setNameCallback={setNameCallback}
-      onKeyPressAddUser={onKeyPressAddUser}
-      addUser={addUser}
-      error={error}
-      totalUsers={totalUsers}
-    />
-  );
+    return (
+        <Greeting
+            name={name}
+            setNameCallback={setNameCallback}
+            onKeyPressAddUser={onKeyPressAddUser}
+            addUser={addUser}
+            error={error}
+            totalUsers={totalUsers}
+        />
+    );
 }
 
 export default GreetingContainer;
