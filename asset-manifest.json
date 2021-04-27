@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/GalinovskayaA/it-incubator/static/css/main.0c600014.chunk.css",
-    "main.js": "/GalinovskayaA/it-incubator/static/js/main.3c2be909.chunk.js",
-    "main.js.map": "/GalinovskayaA/it-incubator/static/js/main.3c2be909.chunk.js.map",
-    "runtime-main.js": "/GalinovskayaA/it-incubator/static/js/runtime-main.33f8cec6.js",
-    "runtime-main.js.map": "/GalinovskayaA/it-incubator/static/js/runtime-main.33f8cec6.js.map",
-    "static/js/2.5a5af6e7.chunk.js": "/GalinovskayaA/it-incubator/static/js/2.5a5af6e7.chunk.js",
-    "static/js/2.5a5af6e7.chunk.js.map": "/GalinovskayaA/it-incubator/static/js/2.5a5af6e7.chunk.js.map",
-    "index.html": "/GalinovskayaA/it-incubator/index.html",
-    "precache-manifest.255c7421fe16cdd7b3bb87f79fe32269.js": "/GalinovskayaA/it-incubator/precache-manifest.255c7421fe16cdd7b3bb87f79fe32269.js",
-    "service-worker.js": "/GalinovskayaA/it-incubator/service-worker.js",
-    "static/css/main.0c600014.chunk.css.map": "/GalinovskayaA/it-incubator/static/css/main.0c600014.chunk.css.map",
-    "static/js/2.5a5af6e7.chunk.js.LICENSE.txt": "/GalinovskayaA/it-incubator/static/js/2.5a5af6e7.chunk.js.LICENSE.txt",
-    "static/media/Vector.svg": "/GalinovskayaA/it-incubator/static/media/Vector.33861ad3.svg",
-    "static/media/App.module.css": "/GalinovskayaA/it-incubator/static/media/background.fe1a6cde.svg"
+    "main.css": "/GalinovskayaA/it-incubatorstatic/css/main.ae14d914.chunk.css",
+    "main.js": "/GalinovskayaA/it-incubatorstatic/js/main.7de6b0d7.chunk.js",
+    "main.js.map": "/GalinovskayaA/it-incubatorstatic/js/main.7de6b0d7.chunk.js.map",
+    "runtime-main.js": "/GalinovskayaA/it-incubatorstatic/js/runtime-main.452f6fd0.js",
+    "runtime-main.js.map": "/GalinovskayaA/it-incubatorstatic/js/runtime-main.452f6fd0.js.map",
+    "static/js/2.9b01f519.chunk.js": "/GalinovskayaA/it-incubatorstatic/js/2.9b01f519.chunk.js",
+    "static/js/2.9b01f519.chunk.js.map": "/GalinovskayaA/it-incubatorstatic/js/2.9b01f519.chunk.js.map",
+    "index.html": "/GalinovskayaA/it-incubatorindex.html",
+    "precache-manifest.fa224707560d4f8c8dab8cca34d32e7d.js": "/GalinovskayaA/it-incubatorprecache-manifest.fa224707560d4f8c8dab8cca34d32e7d.js",
+    "service-worker.js": "/GalinovskayaA/it-incubatorservice-worker.js",
+    "static/css/main.ae14d914.chunk.css.map": "/GalinovskayaA/it-incubatorstatic/css/main.ae14d914.chunk.css.map",
+    "static/js/2.9b01f519.chunk.js.LICENSE.txt": "/GalinovskayaA/it-incubatorstatic/js/2.9b01f519.chunk.js.LICENSE.txt",
+    "static/media/Vector.svg": "/GalinovskayaA/it-incubatorstatic/media/Vector.33861ad3.svg",
+    "static/media/App.module.css": "/GalinovskayaA/it-incubatorstatic/media/background.fe1a6cde.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.33f8cec6.js",
-    "static/js/2.5a5af6e7.chunk.js",
-    "static/css/main.0c600014.chunk.css",
-    "static/js/main.3c2be909.chunk.js"
+    "static/js/runtime-main.452f6fd0.js",
+    "static/js/2.9b01f519.chunk.js",
+    "static/css/main.ae14d914.chunk.css",
+    "static/js/main.7de6b0d7.chunk.js"
   ]
 }
