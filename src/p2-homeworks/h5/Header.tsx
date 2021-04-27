@@ -7,19 +7,20 @@ import HW3 from "../h3/HW3";
 import HW4 from "../h4/HW4";
 import PreJunior from "./pages/PreJunior";
 import HeadBar from "./HeadBar";
+import {PATH} from "./Routes";
 
 function Header() {
     return (
         <div className={s.header}>
             —ฅ/ᐠ.̫ .ᐟ\ฅ—
             <div className={s.nav}>
-                <NavLink to="/pre-junior" activeClassName={s.activeLink}> <HeadBar name={"PreJunior"}/> </NavLink>
-                <NavLink to="/pre-junior-1" activeClassName={s.activeLink}> <HeadBar name={"HW1"}/> </NavLink>
-                <NavLink to="/pre-junior-2" activeClassName={s.activeLink}> <HeadBar name={"HW2"}/> </NavLink>
-                <NavLink to="/pre-junior-3" activeClassName={s.activeLink}> <HeadBar name={"HW3"}/> </NavLink>
-                <NavLink to="/pre-junior-4" activeClassName={s.activeLink}> <HeadBar name={"HW4"}/> </NavLink>
-                <NavLink to="/jun" activeClassName={s.activeLink}> <HeadBar name={"JUN"}/> </NavLink>
-                <NavLink to="/jun+" activeClassName={s.activeLink}> <HeadBar name={"JUN+"}/> </NavLink>
+                <NavLink to={PATH.PRE_JUNIOR} activeClassName={s.activeLink}> <HeadBar name={"PreJunior"}/> </NavLink>
+                <NavLink to={PATH.PRE_JUNIOR_1} activeClassName={s.activeLink}> <HeadBar name={"HW1"}/> </NavLink>
+                <NavLink to={PATH.PRE_JUNIOR_2} activeClassName={s.activeLink}> <HeadBar name={"HW2"}/> </NavLink>
+                <NavLink to={PATH.PRE_JUNIOR_3} activeClassName={s.activeLink}> <HeadBar name={"HW3"}/> </NavLink>
+                <NavLink to={PATH.PRE_JUNIOR_4} activeClassName={s.activeLink}> <HeadBar name={"HW4"}/> </NavLink>
+                <NavLink to={PATH.JUN} activeClassName={s.activeLink}> <HeadBar name={"JUN"}/> </NavLink>
+                <NavLink to={PATH.JUN_PLUS} activeClassName={s.activeLink}> <HeadBar name={"JUN+"}/> </NavLink>
             </div>
 
         </div>

@@ -18,7 +18,7 @@
     "react-scripts": "3.4.1",
     "typescript": "~3.7.2"
   },
-  "homepage": "https://github.com/GalinovskayaA/it-incubator",
+  "homepage": "http://localhost:3000/GalinovskayaA/it-incubator#/pre-junior",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

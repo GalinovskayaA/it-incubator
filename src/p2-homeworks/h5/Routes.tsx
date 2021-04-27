@@ -41,8 +41,10 @@ function Routes() {
                     // add routes
 
                     {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
+                    <Route path={PATH.ERROR} render={() => <Error404/>}/>
                     <Route path={PATH.JUN} render={() => <Error404/>}/>
                     <Route path={PATH.JUN_PLUS} render={() => <Error404/>}/>
+                    <Redirect from={'*'} to={PATH.ERROR} />
 
                 </Switch>
             </div>
