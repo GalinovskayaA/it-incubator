@@ -12,7 +12,7 @@ import {PATH} from "./Routes";
 function Header() {
     return (
         <div className={s.header}>
-            —ฅ/ᐠ.̫ .ᐟ\ฅ—
+            ฅ/ᐠ.̫ .ᐟ\ฅ
             <div className={s.nav}>
                 <NavLink to={PATH.PRE_JUNIOR} activeClassName={s.activeLink}> <HeadBar name={"PreJunior"}/> </NavLink>
                 <NavLink to={PATH.PRE_JUNIOR_1} activeClassName={s.activeLink}> <HeadBar name={"HW1"}/> </NavLink>
